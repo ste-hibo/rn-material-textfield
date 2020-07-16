@@ -1,0 +1,50 @@
+{
+  "name": "rn-material-textfield",
+  "version": "1.0.0",
+  "description": "Material texfield with consistent behaviour on iOS and Android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ste-hibo/rn-material-textfield.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "material",
+    "textfield"
+  ],
+  "author": "ste-hibo",
+  "peerDependencies": {
+    "react": ">=16.3.0",
+    "react-native": ">=0.55.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "babel-eslint": "^10.0.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.0",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-native": "^3.7.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react": "16.10.2",
+    "react-native": "0.61.2",
+    "react-test-renderer": "16.10.2"
+  },
+  "files": [
+    "index.js",
+    "src/*",
+    "license.txt",
+    "readme.md",
+    "changelog.md"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ste-hibo/rn-material-textfield/issues"
+  },
+  "homepage": "https://github.com/ste-hibo/rn-material-textfield#readme"
+}
