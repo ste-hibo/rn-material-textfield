@@ -234,8 +234,8 @@ export default class TextField extends PureComponent {
 
     let options = {
       toValue: this.labelState(),
-      useNativeDriver: true,
       duration,
+      useNativeDriver: true,
     };
 
     startAnimation(labelAnimation, options);
