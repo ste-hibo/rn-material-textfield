@@ -1,26 +1,41 @@
 {
-  "name": "rn-material-textfield",
-  "version": "1.0.0",
-  "description": "Material texfield with consistent behaviour on iOS and Android",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "rn-material-textfield@^0.16.1",
+  "_id": "rn-material-textfield@0.16.1",
+  "_inBundle": false,
+  "_integrity": "sha512-pcV/ic3i6vYEODS7pvAMUYJ+evkzIB8cjXtSzkab9rBtYNGRpAlM0Yp8QNnjZ7foZqkj9Ynav0nguWcuJST10A==",
+  "_location": "/rn-material-textfield",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "rn-material-textfield@^0.16.1",
+    "name": "rn-material-textfield",
+    "escapedName": "rn-material-textfield",
+    "rawSpec": "^0.16.1",
+    "saveSpec": null,
+    "fetchSpec": "^0.16.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ste-hibo/rn-material-textfield.git"
-  },
-  "keywords": [
-    "react",
-    "native",
-    "material",
-    "textfield"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "author": "ste-hibo",
-  "peerDependencies": {
-    "react": ">=16.3.0",
-    "react-native": ">=0.55.0"
+  "_resolved": "https://registry.npmjs.org/rn-material-textfield/-/rn-material-textfield-0.16.1.tgz",
+  "_shasum": "649e71344bb8a7225d5cea7c7b51cd38bcb2bbfc",
+  "_spec": "rn-material-textfield@^0.16.1",
+  "_where": "C:\\Users\\Stefano Mercadante\\Desktop\\repos\\auting-app",
+  "author": {
+    "name": "Alexander Nazarov",
+    "email": "n4kz@n4kz.com"
   },
+  "bugs": {
+    "url": "https://github.com/ste-hibo/rn-material-textfield/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.5.9"
+  },
+  "deprecated": false,
+  "description": "Material textfield",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/runtime": "^7.5.5",
@@ -42,9 +57,42 @@
     "readme.md",
     "changelog.md"
   ],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ste-hibo/rn-material-textfield/issues"
+  "homepage": "https://github.com/ste-hibo/rn-material-textfield#readme",
+  "jest": {
+    "preset": "react-native",
+    "modulePathIgnorePatterns": [
+      "<rootDir>/example"
+    ]
   },
-  "homepage": "https://github.com/ste-hibo/rn-material-textfield#readme"
+  "keywords": [
+    "react",
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "material",
+    "input",
+    "textinput",
+    "field",
+    "textfield",
+    "floating",
+    "label"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "name": "rn-material-textfield",
+  "peerDependencies": {
+    "react": ">=16.3.0",
+    "react-native": ">=0.55.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ste-hibo/rn-material-textfield.git"
+  },
+  "scripts": {
+    "jest": "jest",
+    "lint": "eslint index.js src example/app.js",
+    "test": "eslint index.js src && jest --silent"
+  },
+  "version": "0.16.1"
 }
