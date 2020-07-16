@@ -80,6 +80,7 @@
   ],
   "license": "BSD-3-Clause",
   "main": "index.js",
+  "typings": "index.js",
   "name": "rn-material-textfield",
   "peerDependencies": {
     "react": ">=16.3.0",
