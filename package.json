@@ -95,5 +95,5 @@
     "lint": "eslint index.js src example/app.js",
     "test": "eslint index.js src && jest --silent"
   },
-  "version": "0.16.1"
+  "version": "0.16.2"
 }
