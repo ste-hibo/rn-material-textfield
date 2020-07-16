@@ -222,7 +222,7 @@ export default class TextField extends PureComponent {
     let options = {
       toValue: this.focusState(),
       duration,
-      useNativeDriver: true
+      useNativeDriver: false
     };
 
     startAnimation(focusAnimation, options, this.onFocusAnimationEnd);
@@ -235,7 +235,7 @@ export default class TextField extends PureComponent {
     let options = {
       toValue: this.labelState(),
       duration,
-      useNativeDriver: true,
+      useNativeDriver: false
     };
 
     startAnimation(labelAnimation, options);
